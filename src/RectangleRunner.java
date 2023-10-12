@@ -10,7 +10,10 @@ public class RectangleRunner {
         rect2.printArea();  // calling a method on the object
 
         Rectangle rect3 = new Rectangle(7, 10);
-        rect2.printArea();  // calling a method on the object
+        rect3.printArea();  // calling a method on the object
+        rect1.printPerimeter();
+        rect2.printPerimeter();
+        rect3.printPerimeter();
     }
 }
 
