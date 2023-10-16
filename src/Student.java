@@ -8,6 +8,14 @@ public class Student {
         gpa = g;
     }
 
+    public void setName(String n) {
+        name = n;
+    }
+
+    public void setGpa(double g) {
+        gpa = g;
+    }
+
     public void helloThere() {
         System.out.println("Hello! My name is " + name);
     }
@@ -15,9 +23,9 @@ public class Student {
     public void myGPA() {
         System.out.print("My GPA is " + gpa);
         if (gpa < 65) {
-            System.out.println("That's not good");
+            System.out.println(" ,that's not good");
         } else {
-            System.out.println("Im currently passing");
+            System.out.println(" ,Im currently passing");
         }
     }
 
